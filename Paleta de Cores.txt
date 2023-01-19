@@ -1,0 +1,13 @@
+degrade bordas: #e29a65 - #e85f8c
+
+degrade notebook: #c869ab - #bb54c5 - #4215c9
+
+degrade background: #3503ba - #0c0458
+
+fundo tela notebook: #27057e
+
+fumaça café: #9381cb
+
+escritas: #f7349d - white - #e7975a
+
+sombra - #070340

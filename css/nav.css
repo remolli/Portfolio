@@ -1,0 +1,63 @@
+nav {
+    /* border: 2px solid greenyellow; */
+    border-bottom: 4px solid black;
+    background-image: linear-gradient(to right, #0c0458, #070340);
+    /* background-color: #3a3a3a; */
+
+    display: flex;
+    align-items: center;
+
+    height: 100px;
+
+    animation: iniciarNav 1.5s;
+}
+
+.logo {
+    /* border: 2px solid blue; */
+    cursor: default;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    font-family: 'Crimson Text', serif;
+    font-size: 65px;
+    background: -webkit-linear-gradient(white, #dddddd, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: logoAnimation 3s;
+    animation-iteration-count: infinite;
+    transition: 1s;
+}
+.logo:hover{
+    font-size: 70px;
+}
+
+.links{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: flex-end;
+    width: 80vw;
+}
+
+.link{
+    /* border: 2px solid cyan; */
+    text-decoration: none;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 2px 2px 1px #070340;
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to right, black, black) 0 0 1 0;
+    transition: 1s;
+    animation: iniciarLinks 1.5s
+}
+
+.link:hover{
+    transition: 0.5s;
+    font-size: 22px;
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #e29a65, #e85f8c) 0 0 1 0;
+}

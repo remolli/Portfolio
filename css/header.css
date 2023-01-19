@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    flex-flow: row;
+    max-height: 600px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    animation: iniciarSection 1.5s;
+}
+
+.header-esquerdo {
+    /* border: 2px solid red; */
+    width: 50vw;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 5px;
+}
+
+.imgheader {
+    max-width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 1s;
+}
+.imgheader:hover{
+    opacity: 0.7;
+}
+
+.header-direito {
+    /* border: 2px solid greenyellow; */
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nome {
+    cursor:default;
+    font-size: clamp(1em, 1em + 2.5vw, 3em);
+    font-family: 'Open Sans', sans-serif;
+    padding: 25px;
+    animation-name: piscando;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition: 1s;
+    
+    border-top: 1px solid rgba(0, 0, 0, 0);
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+.nome:hover{
+    border-top: 1px solid rgba(0, 0, 0, 1);
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+    letter-spacing: 2px;
+    text-shadow: 4px 4px black;
+}

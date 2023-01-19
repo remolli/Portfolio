@@ -1,0 +1,49 @@
+@keyframes piscando{
+    0%{color: white}
+    50%{color: #e85f8c}
+    100%{color: white}
+}
+
+@keyframes logoAnimation{
+    0%{
+        opacity: 0.75;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.75;
+    }
+}
+
+@keyframes social{
+    0%{
+        border-color: white;
+    }
+    50%{
+        border-color: #aaa;
+    }
+    100%{
+        border-color: white;
+    }
+}
+
+@keyframes iniciarOpacidade {
+    from{opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes iniciarSection {
+    from{transform: translateY(-30%); opacity: 0;}
+    to{transform: translateY(0); opacity: 1;}
+}
+
+@keyframes iniciarNav {
+    from{height: 0; opacity: 0;}
+    to{height: 100px; opacity: 1;}
+}
+
+@keyframes iniciarLinks{
+    from{transform: translateX(100%)}
+    to{transform: translateX(0)}
+}

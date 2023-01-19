@@ -1,0 +1,40 @@
+section {
+    border-top: 2px solid black;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: auto;
+    animation: iniciarSection 1.5s;
+
+    transition: 1s;
+}
+
+section:hover{
+    margin: 90px 8% 1% 8%;
+}
+
+
+section h2 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Inconsolata', monospace;
+    font-style: italic;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #e29a65, #e85f8c) 0 0 1 0;
+    text-align: center;
+    text-shadow: 3px 3px black;
+    margin: 50px;
+    margin-top: 0;
+    padding: 10px;
+}
+section p {
+    line-height: 25px;
+}
+
+#contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

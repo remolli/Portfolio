@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300&display=swap'); 
+
+@import url(animations.css);
+@import url(nav.css);
+@import url(header.css);
+@import url(social.css);
+@import url(section.css);
+@import url(habilidades.css);
+@import url(contato.css);
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-image: linear-gradient(to bottom right, #3503ba, #0c0458);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Inconsolata:wgth@200', monospace;
+    background: -webkit-linear-gradient(#e29a65, #e85f8c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 5px;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+p{
+    display: flex;
+    color: white;
+    font-family: 'Inconsolata:wgth@200', monospace;
+    text-shadow: 1px 2px #000000;
+    margin: 20px;
+    font-size: clamp(0.5em, 2vw, 1.5em);
+    justify-content: center;
+}

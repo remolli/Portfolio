@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Evandro's</title>
+</head>
+<body>
+    <nav>
+        <h2 class="logo">E</h2>
+        <div class="links">
+            <a class="link" href="#sobre">Sobre</a>
+            <a class="link" href="#habilidades">Habilidades</a>
+            <a class="link" href="#contato">Contato</a>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="header-esquerdo">
+            <p>Olá, meu nome é</p>
+            <p class="nome"><strong>Evandro Remolli</strong></p>
+            <p>Sou desenvolvedor full-stack</p>
+            <div class="social-container">
+                <div class="socialBtn">
+                    <a class="linkedin" href="https://www.linkedin.com/in/evandro-remolli-8b6b9b227/" target="_blank"></a>
+                    <span>LinkedIn</span>
+                </div>
+                <div class="socialBtn">
+                    <a class="github" href="https://github.com/Evandru" target="_blank"></a>
+                    <span>GitHub</span>
+                </div>
+            </div>
+        </div>
+        <div class="header-direito">
+            <div class="gradient">
+                <div class="background">
+                    <img class="imgheader" src="../imagens/programingrecortado.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="sobre">
+        <h1>SOBRE</h1>
+        <h2>Um pouco sobre mim...</h2>
+        <p>
+            Sou estudante de ciência da computação, tenho 20 anos
+            e procuro sempre aprender algo novo. Estudo Desenvolvimento
+            Web Full-Stack e Desenvolvimento de Software para atuar
+            na área e ter experiências profissionais para meu desenvolvimento
+            pessoal e profissional
+        </p>
+    </section>
+    <section id="habilidades">
+        <h1>HABILIDADES</h1>
+        <h2>Minhas Habilidades Atuais</h2>
+        <div class="habilidades">
+            <div class="habilidade">
+                <img src="../imagens/csharp.png" alt="C#">
+                <span>C#</span>
+            </div>
+            <div class="habilidade">
+                    <img src="../imagens/aspnetcore.png" alt="ASP.NET Core">
+                    <span>ASP.NET Core</span>
+            </div>
+            <div class="habilidade">
+                    <img src="../imagens/python.png" alt="Python">
+                    <span>Python</span>
+            </div>
+            <div class="habilidade">
+                    <img src="../imagens/Sql.png" alt="SQL">
+                    <span>SQL</span>
+            </div>
+            <div class="habilidade">
+                    <img src="../imagens/java.png" alt="Java">
+                    <span>Java</span>
+            </div>
+            <div class="habilidade">
+                    <img src="../imagens/html.png" alt="HTML">
+                    <span>HTML5</span>
+            </div>
+            <div class="habilidade">
+                    <img src="../imagens/css.png" alt="CSS">
+                    <span>CSS3</span>
+            </div>
+            <div class="habilidade">
+                    <img src="../imagens/javascript.png" alt="JavaScript">
+                    <span>JavaScript</span>
+            </div>
+        </div>
+    </section>
+    <section id="contato">
+        <h1>CONTATO</h1>
+        <h2>Precisa de um Desenvolvedor?</h2>
+        <p>Vamos trabalhar juntos!</p>
+        <form class="formulario" action="https://api.staticforms.xyz/submit" method="POST">
+            
+            <div class="conjunto">
+                <p>Nome Completo</p>
+                <input class="campo" type="text" name="name" required oninput="nameValidate()">
+                <span class="span-required">Nome deve ter no mínimo 3 caracteres</span>
+            </div>
+            <div class="conjunto">
+                <p>Seu Melhor E-mail</p>
+                <input class="campo" type="email" name="email" required oninput="emailValidade()">
+                <span class="span-required">E-mail Inválido</span>
+            </div>
+            <div class="conjunto">
+                <p>Número de Telefone</p>
+                <input class="campo" type="text" name="phone">
+            </div>
+            <div class="conjunto">
+                <p>Assunto do Contato</p>
+                <input class="campo" type="text" name="subject" required>
+            </div>
+            <textarea class="campo" name="message" cols="50" rows="10"></textarea>
+            <input type="hidden" name="accessKey" value="4d92536c-9c01-40e1-95f9-a7d26c2492ab">
+            <input type="text" name="honeypot" style="display: none;">
+            <input class="submitBtn" type="submit" value="Enviar">
+        </form>
+    </section>
+    <script src="../scripts/script.js"></script>
+</body>
+</html>

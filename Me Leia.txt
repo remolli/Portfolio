@@ -1,0 +1,6 @@
+Olá, este é meu primeiro projeto envolvendo HTML CSS JavaScript.
+Este projeto é a base do meu Portfólio e ainda está em desenvolvimento.
+(Formulário de Contato está funcionando sem problemas e com validação de dados)
+
+Muito obrigado pela atenção e sou grato por ter visitado meu perfil e se interessado
+em meu projeto. <3 :D
