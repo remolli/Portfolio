@@ -3,16 +3,16 @@ section {
     margin-top: 80px;
     margin-left: 5%;
     margin-right: 5%;
+    padding: 30px;
     height: auto;
     animation: iniciarSection 1.5s;
 
     transition: 1s;
 }
-
 section:hover{
-    margin: 90px 8% 1% 8%;
+    /* margin: 90px 8% 1% 8%; */
+    padding: 50px;
 }
-
 
 section h2 {
     color: white;
@@ -30,6 +30,19 @@ section h2 {
 }
 section p {
     line-height: 25px;
+}
+
+.hover-bordas-laterais{
+    border-right: 1px solid rgba(0, 0, 0, 0);
+    border-left: 1px solid rgba(0, 0, 0, 0);
+
+    transition: 1s;
+}
+.hover-bordas-laterais:hover {
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    
+    padding: 10px;
 }
 
 #contato{

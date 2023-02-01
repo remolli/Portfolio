@@ -9,7 +9,6 @@
 }
 
 .header-esquerdo {
-    /* border: 2px solid red; */
     width: 50vw;
     height: auto;
     display: flex;
@@ -32,7 +31,6 @@
 }
 
 .header-direito {
-    /* border: 2px solid greenyellow; */
     width: 50vw;
     display: flex;
     justify-content: center;
