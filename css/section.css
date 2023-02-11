@@ -10,13 +10,12 @@ section {
     transition: 1s;
 }
 section:hover{
-    /* margin: 90px 8% 1% 8%; */
-    padding: 50px;
+    padding: 40px;
 }
 
 section h2 {
     color: white;
-    font-size: 30px;
+    font-size: clamp(1em, 4vw, 1.8em);
     font-family: 'Inconsolata', monospace;
     font-style: italic;
     border-width: 3px;
@@ -29,7 +28,7 @@ section h2 {
     padding: 10px;
 }
 section p {
-    line-height: 25px;
+    line-height: clamp(0.5em, 5vw, 2em);
 }
 
 .hover-bordas-laterais{

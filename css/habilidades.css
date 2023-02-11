@@ -24,8 +24,8 @@
 
 .habilidades img {
     border: 1px solid white;
-    max-width: 70px;
-    max-height: 70px;
+    width: clamp(1em, 8vw, 4.5em);
+    height: clamp(1em, 8vw, 4.5em);
     margin-bottom: 10px;
     border-radius: 35%;
     background-color: rgba(0, 0, 0, 0.25);
@@ -33,6 +33,7 @@
 
 .habilidades span {
     color: white;
+    font-size: clamp(0.2em, 2vw, 1.25em);
     font-family: 'Raleway', sans-serif;
     text-shadow: 1px 1px black;
 }

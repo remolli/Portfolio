@@ -4,8 +4,8 @@
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    height: 500px;
-    width: 500px;
+    height: clamp(23.5em, 55vw, 37em);
+    width: clamp(23.5em, 55vw, 37em);
 }
 
 .conjunto {
@@ -19,7 +19,7 @@
 }
 .conjunto p {
     margin: 0;
-    font-size: 15px;
+    font-size: clamp(0.8em, 2vw, 1.5em);
     color: rgba(255, 255, 255, 0.6);
     pointer-events: none;
     font-family: 'Inconsolata', monospace;
@@ -31,10 +31,11 @@
     justify-content: center;
     align-items:center;
 
-    width: 100%;
+    width: clamp(15em, 50vw, 25em);
+    height: clamp(1.5em, 2vw, 2em);
 
     font-family: 'Inconsolata:wgth@200', monospace;
-    font-size: 15px;
+    font-size: clamp(0.8em, 2vw, 1.5em);
     background-color: rgba(255, 255, 255, 0.2);
     color: white;
     border: 1px solid black;
@@ -46,6 +47,10 @@
     border: 2px solid rgba(155, 0, 255, 0.8);
 }
 
+#assunto {
+    height: clamp(10em, 20vw, 37em);
+    width: clamp(23.5em, 55vw, 32em);
+}
 
 .submitBtn {
     margin-top: 15px;

@@ -8,14 +8,14 @@
     display: flex;
     background-size: cover;
     margin: 5px 20px;
-    height: 55px;
-    width: 55px;
+    height: clamp(0.5em, 10vw, 4em);
+    width: clamp(0.5em, 10vw, 4em);
     background-color: white;
     transition: 0.5s;
 }
 .social-container a:hover{
-    height: 65px;
-    width: 65px;
+    height: clamp(1.5em, 12vw, 4.5em);
+    width: clamp(1.5em, 12vw, 4.5em);
 }
 
 .linkedin {
